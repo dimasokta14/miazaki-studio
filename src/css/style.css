@@ -1,0 +1,36 @@
+.slider1{
+    background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')
+}
+
+.slider2{
+    background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')
+}
+
+.slider3{
+    background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')
+}
+
+.nav-item{
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.6em;
+}
+
+.navbar-brand{
+    font-family: Playfair Display, serif;
+}
+
+a{
+    color: black !important;
+}
+
+li.nav-item.active {
+    border-bottom: black 1px solid;
+}
+
+nav.navbar.navbar-expand-lg.navbar-white.bg-white.fixed-top.text-black.padding-nav{
+    padding: 3vw 4vw 3vw 4vw !important;
+}

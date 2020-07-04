@@ -1,0 +1,65 @@
+GET http://localhost:3000/api/user
+
+###
+
+GET http://localhost:3000/api/user/5eff7f42ab059417e040961f
+
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+    "name": "Black Magician",
+    "email": "tes@mail.com",
+    "phone": "+62",
+    "address": "jl",
+    "company": "tokoku"
+}
+
+###
+DELETE http://localhost:3000/api/user/5eff7f42ab059417e040961f
+
+###
+PATCH http://localhost:3000/api/user/5eff8080b305dd13f46f3867
+Content-Type: application/json
+
+{
+    "name": "Dar-rev",
+    "phone": "+63",
+    "email": "mail_rev@mail.com",
+    "address": "dirumahaja",
+    "company": "telok"
+}
+
+###
+
+GET http://localhost:3000/api/task
+
+###
+
+GET http://localhost:3000/api/task/5eff7e5e2f88c103ac134d4d
+
+###
+POST http://localhost:3000/api/task
+Content-Type: application/json
+
+{
+    "title": "Bikinin logo bang",
+    "documentation": "contoh"
+}
+
+###
+
+DELETE http://localhost:3000/api/task/5eff7383d4c05906f4370cf4
+
+###
+PATCH http://localhost:3000/api/task/5eff7383d4c05906f4370cf4
+Content-Type: application/json
+
+{
+    "title": "Ganti Bang"
+}
+
+
+###
+GET http://localhost:3000/api/portofolio
